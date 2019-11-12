@@ -1,17 +1,17 @@
 future: true
 permalink: /:title/
-url: http://Sansanphus.github.io
-name: Sansan
-author: Sansan
-qq: 704358474
-email: sansantoday@163.com
+url: http://sansanphus.github.io
+name: sansanphus
+author: sansan
+qq: 704358474@qq.com
+email: sansantoday@qq.com
 
-duoshuo: Sansanphus
+duoshuo: sansanphus
 beian: 
 cnzz: 
 weibo: 
 github: https://github.com/sansanphus
-about: "哈喽哈喽嘿"
+about: "这里是 sansanphus 的动感地带！"
 
 safe: true
 paginate: 20
