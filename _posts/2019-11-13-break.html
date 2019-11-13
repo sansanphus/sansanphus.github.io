@@ -16,7 +16,11 @@ tags: 测试
 	<link rel="stylesheet" type="text/css" href="../media/css/default.css">
 	<style class="cp-pen-styles">
 	body {
-	    background-color: #FFFFFF;
+        background-image: url("../media/pic/影子bg.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        background-color: #000000;
 	    margin: 0;
 	    overflow: hidden;
 	}
@@ -40,8 +44,8 @@ tags: 测试
 	}
 	#container {
 	    position: absolute;
-	    width: 768px;
-	    height: 485px;
+	    width: 966px;
+	    height: 1366px;
 	    left: 0;
 	    right: 0;
 	    top: 0;
@@ -67,7 +71,7 @@ tags: 测试
 <script>
 const TWO_PI = Math.PI * 2;
 var images = [], imageIndex = 0;
-var image, imageWidth = 768, imageHeight = 485;
+var image, imageWidth = 966, imageHeight = 1366;
 var vertices = [], indices = [], fragments = [];
 var container = document.getElementById('container');
 var clickPosition = [
@@ -77,7 +81,7 @@ var clickPosition = [
 window.onload = function () {
     TweenMax.set(container, { perspective: 500 });
     var urls = [
-            '../media/pic/33.jpg'
+            '../media/pic/影子字.png'
         ], image, loaded = 0;
     images[0] = image = new Image();
     image.onload = function () {
